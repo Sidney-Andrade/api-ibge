@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  form{
+      float: left;
+  }
+  select{
+      height: 25px;
+  }
+  label{
+      display: inline-block;
+      width: 200px;
+      margin: 15px;
+  }
+  #resultado{
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      width: 250px;
+      height: 450px;
+      float: right;
+      padding: 10px;
+  }
+  #resultado h2{
+      text-align: center;
+      font-size: 15px;
+  }
+  #resultado .result-item{
+    display: inline-block;  
+    font-weight: bold;
+    margin: 10px;
+  }
+  #resultado .estado-atual,
+  #resultado .cidade-atual{
+      font-weight: normal;
+  }
+  #resultado .fechar{
+    float: right;
+    cursor: pointer;
+  }
