@@ -26,7 +26,7 @@ function mudancaCidade(){
     $.ajax({
         type: "GET",
         dataType: "json",
-        url: "https://servicodados.ibge.gov.br/api/v1/localidades/estadoss/"+id+"/distritos",
+        url: "https://servicodados.ibge.gov.br/api/v1/localidades/estados/"+id+"/distritos",
         success: function (data) {
           let option = "";
           $.each(data,function(i, value){
